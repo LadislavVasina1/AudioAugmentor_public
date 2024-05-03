@@ -7,7 +7,8 @@ This library is designed to augment audio data for machine learning purposes.
 It combines several tools and libraries for audio data augmentation and provides a unified interface that can be used to apply a large set of audio augmentations in one place.
 
 The library is designed to be used with the [PyTorch](https://pytorch.org) machine learning framework.
-It can also work solely on just simple audio waveforms and augment those.
+It can also work solely on just simple audio waveforms and augment just those.
+Additionally it can also augment local audio datasets.
 
 This library specifically combines these libraries and tools:
 
