@@ -83,11 +83,14 @@ Table below shows which library was used to apply specific audio augmentation/co
 
 ## Usage
 For a more complex example see [example colab notebook above](#python-library-for-augmenting-audio-data).
+Or see jupyter notebook `AudioAugmentor_Usage_Example.ipynb` in the `examples` directory within this repository.
 
 `Note: AudioAugmentor was mainly tested using Python 3.11.8 and Fedora 38 (Google Colab uses Python 3.10 and Ubuntu)`
 
 
 **0. You need to install the library and necessary packages first**
+**!!!You may need to run the following commands with sudo!!!**
+If so install these packages manually in terminal.
 ```bash
 pip install -U pip
 pip install AudioAugmentor
