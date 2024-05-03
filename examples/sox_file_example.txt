@@ -1,0 +1,12 @@
+--sox="norm gain 0 highpass 1000 phaser 0.5 0.6 1 0.45 0.6 -s"
+--sox="norm gain 0 highpass 1000 phaser 0.5 0.6 1 0.45 0.5 -s"
+--sox="norm gain 20 highpass 300 phaser 0.5 0.6 1 0.45 0.6 -s"
+--sox="norm gain 10 highpass 1500 phaser 0.5 0.6 1 0.45 0.6 -s"
+--sox="norm gain 15 highpass 1000 phaser 0.5 0.6 1 0.45 0.6 -s"
+--sox="norm gain 20 highpass 300 phaser 0.5 0.6 1 0.4 0.6 -s"
+--sox="norm gain 20 highpass 300 phaser 0.5 0.6 1 0.45 0.6 -s"
+--sox="norm gain 20 highpass 300 phaser 0.5 0.6 1 0.45 0.6 -s" mp3 bitrate 8
+--sox="norm gain 20 highpass 300 phaser 0.5 0.6 1 0.45 0.6 -s" pcm_mulaw
+--sox="norm gain 20 highpass 300 phaser 0.5 0.6 1 0.45 0.6 -s" g726 audio_bitrate 40k
+--sox="norm gain 20 highpass 300 phaser 0.5 0.6 1 0.45 0.6 -s" gsm
+--sox="norm gain 20 highpass 300 phaser 0.5 0.6 1 0.45 0.6 -s" amr audio_bitrate 4.75k

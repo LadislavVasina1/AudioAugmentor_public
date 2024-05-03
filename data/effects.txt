@@ -1,0 +1,78 @@
+AddBackgroundNoise: Mixes in another sound to add background noise
+AddGaussianNoise: Adds gaussian noise to the audio samples
+AddGaussianSNR: Injects gaussian noise using a randomly chosen signal-to-noise ratio
+AddShortNoises: Mixes in various short noise sounds
+AdjustDuration: Trims or pads the audio to fit a target duration
+AirAbsorption: Applies frequency-dependent attenuation simulating air absorption
+ApplyImpulseResponse: Convolves the audio with a randomly chosen impulse response
+BandPassFilter: Applies band-pass filtering within randomized parameters
+BandStopFilter: Applies band-stop (notch) filtering within randomized parameters
+Clip: Clips audio samples to specified minimum and maximum values
+ClippingDistortion: Distorts the signal by clipping a random percentage of samples
+Gain: Multiplies the audio by a random gain factor
+GainTransition: Gradually changes the gain over a random time span
+HighPassFilter: Applies high-pass filtering within randomized parameters
+HighShelfFilter: Applies a high shelf filter with randomized parameters
+Lambda: Applies a user-defined transform
+Limiter: Applies dynamic range compression limiting the audio signal
+LoudnessNormalization: Applies gain to match a target loudness
+LowPassFilter: Applies low-pass filtering within randomized parameters
+LowShelfFilter: Applies a low shelf filter with randomized parameters
+Mp3Compression: Compresses the audio to lower the quality
+Normalize: Applies gain so that the highest signal level becomes 0 dBFS
+Padding: Replaces a random part of the beginning or end with padding
+PeakingFilter: Applies a peaking filter with randomized parameters
+PitchShift: Shifts the pitch up or down without changing the tempo
+PolarityInversion: Flips the audio samples upside down, reversing their polarity
+RepeatPart: Repeats a subsection of the audio a number of times
+Resample: Resamples the signal to a randomly chosen sampling rate
+Reverse: Reverses the audio along its time axis
+RoomSimulator: Simulates the effect of a room on an audio source
+SevenBandParametricEQ: Adjusts the volume of 7 frequency bands
+Shift: Shifts the samples forwards or backwards
+SpecChannelShuffle: Shuffles channels in the spectrogram
+SpecFrequencyMask: Applies a frequency mask to the spectrogram
+TanhDistortion: Applies tanh distortion to distort the signal
+TimeMask: Makes a random part of the audio silent
+TimeStretch: Changes the speed without changing the pitch
+Trim: Trims leading and trailing silence from the audio
+
+
+AddBackgroundNoise
+AddGaussianNoise
+AddGaussianSNR
+AddShortNoises
+AdjustDuration
+AirAbsorption
+ApplyImpulseResponse
+BandPassFilter
+BandStopFilter
+Clip
+ClippingDistortion
+Gain
+GainTransition
+HighPassFilter
+HighShelfFilter
+Lambda
+Limiter
+LoudnessNormalization
+LowPassFilter
+LowShelfFilter
+Mp3Compression
+Normalize
+Padding
+PeakingFilter
+PitchShift
+PolarityInversion
+RepeatPart
+Resample
+Reverse
+RoomSimulator
+SevenBandParametricEQ
+Shift
+SpecChannelShuffle
+SpecFrequencyMask
+TanhDistortion
+TimeMask
+TimeStretch
+Trim
