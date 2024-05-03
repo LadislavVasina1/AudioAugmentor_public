@@ -89,7 +89,9 @@ Or see jupyter notebook `AudioAugmentor_Usage_Example.ipynb` in the `examples` d
 
 
 **0. You need to install the library and necessary packages first**
+
 **!!!You may need to run the following commands with sudo!!!**
+
 If so install these packages manually in terminal.
 ```bash
 pip install -U pip
