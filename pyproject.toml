@@ -9,7 +9,7 @@ include = ["AudioAugmentor"]
 
 [project]
 name = "AudioAugmentor"
-version = "0.0.9"
+version = "0.1.0"
 description = "Python package for simple application of wide range of audio augmentations."
 readme = "README.md"
 authors = [{ name = "Ladislav Vašina", email = "ladislavvasina@gmail.com"}]
