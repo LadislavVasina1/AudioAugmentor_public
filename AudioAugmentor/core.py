@@ -25,16 +25,16 @@ from datasets.formatting.formatting import LazyRow
 import random
 
 # Build pip package with this uncommented
-from . import torchaudio_transf_wrapper as TTW
-from .transf_gen import T_TRANSF, TTW_TRANSF, get_transf
-from .sox_parser import select_random_sox, parse
-from . import rir_setup
+# from . import torchaudio_transf_wrapper as TTW
+# from .transf_gen import T_TRANSF, TTW_TRANSF, get_transf
+# from .sox_parser import select_random_sox, parse
+# from . import rir_setup
 
 # Test sources with this uncommented
-# import torchaudio_transf_wrapper as TTW
-# from transf_gen import T_TRANSF, TTW_TRANSF, get_transf
-# from sox_parser import select_random_sox, parse
-# import rir_setup
+import torchaudio_transf_wrapper as TTW
+from transf_gen import T_TRANSF, TTW_TRANSF, get_transf
+from sox_parser import select_random_sox, parse
+import rir_setup
 
 
 def torch_randomizer(

@@ -21,12 +21,12 @@ from scipy.signal import fftconvolve
 import torch.multiprocessing as mp
 
 # Build pip package with this uncommented
-from . import torchaudio_transf_wrapper as TTW
-from .rir_setup import ApplyRIR, RandomRIRKwargs, get_all_materials_info, create_random_rir_kwargs
+# from . import torchaudio_transf_wrapper as TTW
+# from .rir_setup import ApplyRIR, RandomRIRKwargs, get_all_materials_info, create_random_rir_kwargs
 
 # Test sources with this uncommented
-# import torchaudio_transf_wrapper as TTW
-# from rir_setup import ApplyRIR, RandomRIRKwargs, get_all_materials_info, create_random_rir_kwargs
+import torchaudio_transf_wrapper as TTW
+from rir_setup import ApplyRIR, RandomRIRKwargs, get_all_materials_info, create_random_rir_kwargs
 
 
 PRA_TRANSF = [

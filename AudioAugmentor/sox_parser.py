@@ -10,10 +10,10 @@ import torchaudio.transforms as T
 from random import choice
 
 # Build pip package with this uncommented
-from .transf_gen import CODECS
+# from .transf_gen import CODECS
 
 # Test sources with this uncommented
-# from transf_gen import CODECS
+from transf_gen import CODECS
 
 EFFECTS_NAMES = torchaudio.sox_effects.effect_names()
 
